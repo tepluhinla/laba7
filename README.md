@@ -82,10 +82,15 @@ public void openClick(View view) {
 7) Проверяем и запускаем приложение
 
 Начальный экран
+
 ![image](https://user-images.githubusercontent.com/73265867/143829927-16712cb2-849f-427c-bd9f-3b4d338300ac.png)
+
 Пишем в поле PlaneText слово "privet" и нажимаем кнопку Save: выдает сообщение "Текстовый файл успешно сохранен".
+
 ![image](https://user-images.githubusercontent.com/73265867/143830996-3fef607f-a2e9-432b-a81d-c65d652fb8ec.png)
+
 Нажимае кнопку Load в поле TextView отображаеться "privet".
+
 ![image](https://user-images.githubusercontent.com/73265867/143831176-6c3fe8d3-57c5-4196-a73c-6a8c7dfc607a.png)
 
 
