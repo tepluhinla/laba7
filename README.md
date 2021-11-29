@@ -48,7 +48,7 @@ public void saveClick(View view) {
         }
     }
 ```
-5) Напишем обработчик события для кнопки "Load"
+5) Обработчик события для кнопки "Load
 ```Java
 public void openClick(View view) {
         try
@@ -68,7 +68,7 @@ public void openClick(View view) {
         }
     }
 ```
-6) Установим разрешение на доступ в файле "AndroidManifest.xml"
+6) Установим разрешение на доступ
 ```Java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
