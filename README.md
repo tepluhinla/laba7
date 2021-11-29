@@ -5,7 +5,7 @@ Laba 7 Mobilki (TepluhinLev 803a2)
 2) Добавялем поле PlaneText, 
    TextView, 2 кнопки "Save" "Load"
 
-![image](https://user-images.githubusercontent.com/73265867/143829847-acd9b0b7-5cc3-4830-b02d-aee18224a382.png)
+![image](https://user-images.githubusercontent.com/73265867/143831765-31249984-32c6-4061-a251-30be23ca3693.png)
 
 3) Назначил имя файла и установил путь 
 ```Java
@@ -91,6 +91,6 @@ public void openClick(View view) {
 
 Нажимае кнопку Load в поле TextView отображаеться "privet".
 
-![image](https://user-images.githubusercontent.com/73265867/143831176-6c3fe8d3-57c5-4196-a73c-6a8c7dfc607a.png)
+![image](https://user-images.githubusercontent.com/73265867/143831729-48308ca5-fd60-4344-a7a6-6b9543f2326d.png)
 
 
