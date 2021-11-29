@@ -2,11 +2,12 @@
 Laba 7 Mobilki (TepluhinLev 803a2)
 
 1) Создаём новый проект
-2) Добавялем поле PlaneText, TextView, 2 кнопки "Save" "Load"
+2) Добавялем поле PlaneText, 
+   TextView, 2 кнопки "Save" "Load"
 
-![image](https://user-images.githubusercontent.com/78772701/140328668-059bf374-3db6-49fa-86c8-f6a99843a3d2.png)
+![image](https://user-images.githubusercontent.com/73265867/143829847-acd9b0b7-5cc3-4830-b02d-aee18224a382.png)
 
-3) Назначим имя файла и установим путь для него
+3) Назначил имя файла и установил путь 
 ```Java
 public class MainActivity extends AppCompatActivity {
 
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         file = new File(MainActivity.this.getFilesDir(),filename);
     }
 ```
-4) Напишем обработчик события для кнопки "Save"
+4) Обработчик события для кнопки Save
 ```Java
 public void saveClick(View view) {
         try
@@ -78,8 +79,13 @@ public void openClick(View view) {
     <uses-permission
         android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 ```
-7) Запускаем и проверяем
+7) Проверяем и запускаем приложение
 
-![S11104-210006](https://user-images.githubusercontent.com/78772701/140329645-8b142ccc-7e6a-414f-87b3-0d63c3b2eed0.jpg)
-![S11104-210021](https://user-images.githubusercontent.com/78772701/140329941-de24d3f4-a6f1-4c4f-b70f-73c9da38d171.jpg)
-![S11104-210025](https://user-images.githubusercontent.com/78772701/140329970-f1921c52-483a-429a-86ea-da619196efc3.jpg)
+Начальный экран
+![image](https://user-images.githubusercontent.com/73265867/143829927-16712cb2-849f-427c-bd9f-3b4d338300ac.png)
+Пишем в поле PlaneText слово "privet" и нажимаем кнопку Save: выдает сообщение "Текстовый файл успешно сохранен".
+![image](https://user-images.githubusercontent.com/73265867/143830996-3fef607f-a2e9-432b-a81d-c65d652fb8ec.png)
+Нажимае кнопку Load в поле TextView отображаеться "privet".
+![image](https://user-images.githubusercontent.com/73265867/143831176-6c3fe8d3-57c5-4196-a73c-6a8c7dfc607a.png)
+
+
